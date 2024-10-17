@@ -3,6 +3,7 @@ This repo includes a post-processing step following Apple's [Depth Pro: Sharp Mo
 
 ![image](https://github.com/user-attachments/assets/839a835b-55ec-417a-8413-c67d7b585f01)
 ![pisa3](https://github.com/user-attachments/assets/90540b67-1e58-46da-894a-04066587b35a)
+![pisa1](https://github.com/user-attachments/assets/2ba4deb6-c652-44e1-92e9-a4f827765dcc)
 
 🚀 First Iteration Alert! 🚀
 Help is needed to ensure that the code outputs a point cloud in the metric system. Your expertise is welcomed!

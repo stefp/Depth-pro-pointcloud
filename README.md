@@ -2,7 +2,7 @@
 This repo includes a post-processing step following Apple's [Depth Pro: Sharp Monocular Metric Depth in Less Than a Second](https://arxiv.org/abs/2410.02073) to produce a point cloud from the output depth map.
 
 ![image](https://github.com/user-attachments/assets/839a835b-55ec-417a-8413-c67d7b585f01)
-![pisa3](https://github.com/user-attachments/assets/5f84ebda-3676-4063-a955-5d7a2b9e5b9e)
+![pisa3](https://github.com/user-attachments/assets/90540b67-1e58-46da-894a-04066587b35a)
 
 🚀 First Iteration Alert! 🚀
 Help is needed to ensure that the code outputs a point cloud in the metric system. Your expertise is welcomed!

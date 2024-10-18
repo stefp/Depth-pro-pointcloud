@@ -23,13 +23,28 @@ git clone https://github.com/stefp/Depth-pro-pointcloud
 cd Depth-pro-pointcloud
 ```
 
+Install dependencies in conda shell (ensure to install the right pytorch CUDA version check [see PyTorch version tool](https://pytorch.org/get-started/locally/))
+
+```
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install numpy pillow torch opencv-python
+python3 -m pip install laspy[lazrs,laszip]
+```
+Check in a python environment that you've installed a pytorch version that has access to GPU
+```
+import torch
+torch.cuda.is_available()
+```
+
+There might be some other package to install (TO CHECK!)
+
 # ▶️ Run 
 Run the following
  ```
-python depth-pro-pointcloud.py C:\Users\stpu\Downloads\forest.jfif
+python depth-pro-pointcloud.py path_to_your_image/your_image.jpg
 ```
 
-💡 Tip: You can change the image (*.jpeg, *.jpg, *.png, etc.) to any image you have on hand!
+💡 Tip: You can change the image (*.jpeg, *.jpg, *.png, *.jfif, etc.) to any image you have on hand!
 
 # 🙏 Help Needed!
 It seems the output scale might be off. Anyone willing to help fix this? 🤔

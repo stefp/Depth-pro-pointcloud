@@ -4,10 +4,12 @@ This repo includes a post-processing step following Apple's [Depth Pro: Sharp Mo
 <p align="center">
   <img width="460" height="300" src=images/pisa_small.PNG>
 </p>
-
-
-![pisa3](https://github.com/user-attachments/assets/90540b67-1e58-46da-894a-04066587b35a)
-![pisa1](https://github.com/user-attachments/assets/2ba4deb6-c652-44e1-92e9-a4f827765dcc)
+<p align="left">
+  <img width="460" height="300" src=images/pisa1.gif>
+</p>
+<p align="right">
+  <img width="460" height="300" src=images/pisa3.gif>
+</p>
 
 🚀 First Iteration Alert! 🚀
 Help is needed to ensure that the code outputs a point cloud in the metric system. Your expertise is welcomed!
@@ -57,4 +59,8 @@ python depth-pro-pointcloud.py path_to_your_image/your_image.jpg
 
 # 🙏 Help Needed!
 It seems the output scale might be off. Anyone willing to help fix this? 🤔
+## To do list
+- ensure the output point cloud is correctly scaled (metric)
+- point cloud filtering (e.g statistical outlier removal SOR) for removing sparse points around edges
+- ...
 

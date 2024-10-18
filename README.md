@@ -5,10 +5,10 @@ This repo includes a post-processing step following Apple's [Depth Pro: Sharp Mo
   <img width="460" height="300" src=images/pisa_small.PNG>
 </p>
 <p align="left">
-  <img width="460" height="300" src=images/pisa1.gif>
+  <img src=images/pisa1.gif>
 </p>
 <p align="right">
-  <img width="460" height="300" src=images/pisa3.gif>
+  <img src=images/pisa3.gif>
 </p>
 
 🚀 First Iteration Alert! 🚀

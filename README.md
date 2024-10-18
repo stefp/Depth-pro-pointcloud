@@ -2,9 +2,8 @@
 This repo includes a post-processing step following Apple's [Depth Pro: Sharp Monocular Metric Depth in Less Than a Second](https://arxiv.org/abs/2410.02073) to produce a point cloud from the output depth map.
 
 <p align="center">
-  <img width="460" height="300" src=images/pisa_small.PNG>
+  <img src="images/pisa_small.PNG" alt="Centered Image" width="400"/>
 </p>
-
 
 <div style="display: flex; justify-content: space-between;">
   <img src="images/pisa1.gif" alt="Left Image" width="400"/>

@@ -63,3 +63,6 @@ It seems the output scale might be off. Anyone willing to help fix this? 🤔
 - point cloud filtering (e.g statistical outlier removal SOR) for removing sparse points around edges
 - ...
 
+# Citation and licencing
+For the part of this repo that uses Depth-pro please refer to the original repo' [citation](https://github.com/apple/ml-depth-pro/tree/main?tab=readme-ov-file#citation) and [licencing terms](https://github.com/apple/ml-depth-pro/blob/main/LICENSE).
+

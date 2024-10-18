@@ -4,12 +4,12 @@ This repo includes a post-processing step following Apple's [Depth Pro: Sharp Mo
 <p align="center">
   <img width="460" height="300" src=images/pisa_small.PNG>
 </p>
-<p align="left">
-  <img src=images/pisa1.gif>
-</p>
-<p align="right">
-  <img src=images/pisa3.gif>
-</p>
+
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="images/pisa1.gif" alt="Left Image" width="400"/>
+  <img src="images/pisa3.gif" alt="Right Image" width="400"/>
+</div>
 
 🚀 First Iteration Alert! 🚀
 Help is needed to ensure that the code outputs a point cloud in the metric system. Your expertise is welcomed!

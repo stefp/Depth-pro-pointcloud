@@ -1,7 +1,9 @@
 # Depth-pro-pointcloud
 This repo includes a post-processing step following Apple's [Depth Pro: Sharp Monocular Metric Depth in Less Than a Second](https://arxiv.org/abs/2410.02073) to produce a point cloud from the output depth map.
+<p align="center">
+  <img width="460" height="300" src=![image](https://github.com/user-attachments/assets/839a835b-55ec-417a-8413-c67d7b585f01)>
+</p>
 
-![image](https://github.com/user-attachments/assets/839a835b-55ec-417a-8413-c67d7b585f01)
 
 ![pisa3](https://github.com/user-attachments/assets/90540b67-1e58-46da-894a-04066587b35a)
 ![pisa1](https://github.com/user-attachments/assets/2ba4deb6-c652-44e1-92e9-a4f827765dcc)

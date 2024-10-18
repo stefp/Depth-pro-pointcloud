@@ -23,13 +23,19 @@ git clone https://github.com/stefp/Depth-pro-pointcloud
 cd Depth-pro-pointcloud
 ```
 
-Install dependencies in conda shell (ensure to install the right pytorch CUDA version check [see PyTorch version tool](https://pytorch.org/get-started/locally/))
+Create a new conda environment
+ ```
+conda create -n depthPro_pc python=3.9
+conda activate depthPro_pc
+```
 
+Install dependencies in conda shell (ensure to install the right PyTorch CUDA version check [see PyTorch version tool](https://pytorch.org/get-started/locally/))
 ```
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 pip install numpy pillow torch opencv-python
 python3 -m pip install laspy[lazrs,laszip]
 ```
+
 Check in a python environment that you've installed a pytorch version that has access to GPU
 ```
 import torch
@@ -39,8 +45,8 @@ torch.cuda.is_available()
 There might be some other package to install (TO CHECK!)
 
 # ▶️ Run 
-Run the following
- ```
+In shell run the following
+```
 python depth-pro-pointcloud.py path_to_your_image/your_image.jpg
 ```
 
